@@ -19,7 +19,7 @@ func _on_personaje_game_over_triggered() -> void:
 	
 	
 func _on_isra_game_over_triggered() -> void:
-	print("¡Ganaste el nivel!")
+	#print("¡Ganaste el nivel!")
 	cargar_cinematica("res://assets/videos/VideoCambioSoto.ogv", "res://NivelSoto.tscn")
 
 func cargar_cinematica(ruta_video: String, siguiente: String):
